@@ -1,16 +1,19 @@
 # 📝 Notes - A Simple Note-Taking App
 
-![Project Preview1](./assets/ss1.png)![Project Preview2](./assets/ss2.png)![Project Preview3](./assets/ss3.png)
-
+<p align="center">
+  <img src="./assets/ss1.png" width="150" />
+  <img src="./assets/ss2.png" width="150" />
+  <img src="./assets/ss3.png" width="150" />
+</p>
 A clean and intuitive note-taking application built with ReactNative and Expo. Easily create, edit, and manage your notes with a responsive design that works across devices.
 
 ## ✨ Features
 
 - **Add New Notes** - Quickly create notes with titles and content
 - **Edit Existing Notes** - Modify your notes anytime
-- **Responsive Design** - Works on desktop, tablet, and mobile
-- **Local Storage** - Notes are saved in your browser
+- **Local Storage** - Notes are saved in your database.
 - **Clean UI** - Minimalist interface focused on your content
+- **Authentication** - Requires Login or signup (can come up with fake email)
 
 ## 👟 How to run
 - Clone the repository:
