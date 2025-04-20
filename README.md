@@ -1,6 +1,6 @@
 # 📝 Notes - A Simple Note-Taking App
 
-![Project Preview](./ss1.png)
+![Project Preview](./assets/ss1.png)
 
 A clean and intuitive note-taking application built with HTML, CSS, and JavaScript. Easily create, edit, and manage your notes with a responsive design that works across devices.
 
