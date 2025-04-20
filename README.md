@@ -2,7 +2,7 @@
 
 ![Project Preview1](./assets/ss1.png)![Project Preview2](./assets/ss2.png)![Project Preview3](./assets/ss3.png)
 
-A clean and intuitive note-taking application built with HTML, CSS, and JavaScript. Easily create, edit, and manage your notes with a responsive design that works across devices.
+A clean and intuitive note-taking application built with ReactNative and Expo. Easily create, edit, and manage your notes with a responsive design that works across devices.
 
 ## ✨ Features
 
