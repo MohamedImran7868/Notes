@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# 📝 Notes - A Simple Note-Taking App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="./assets/ss1.png" width="150" />
+  <img src="./assets/ss2.png" width="150" />
+  <img src="./assets/ss3.png" width="150" />
+</p>
+A clean and intuitive note-taking application built with ReactNative and Expo. Easily create, edit, and manage your notes with a responsive design that works across devices.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- **Add New Notes** - Quickly create notes with titles and content
+- **Edit Existing Notes** - Modify your notes anytime
+- **Local Storage** - Notes are saved in your database.
+- **Clean UI** - Minimalist interface focused on your content
+- **Authentication** - Requires Login or signup (can come up with fake email)
 
+## 👟 How to run
+- Clone the repository:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/MohamedImran7868/Notes.git
+  ```
+- open terminal or VSCode on the cloned path
+- Run 
+    ```bash
+       npm start
+    ```
+- A Qr Code will be generated. Scan with ur phone using Expo GO or run on sdk
