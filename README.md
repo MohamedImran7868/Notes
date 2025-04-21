@@ -24,5 +24,5 @@ A clean and intuitive note-taking application built with ReactNative and Expo. E
 - Run 
     ```bash
        npm start
-      ```
+    ```
 - A Qr Code will be generated. Scan with ur phone using Expo GO or run on sdk
