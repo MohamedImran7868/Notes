@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     backgroundColor: "lightgrey",
     padding: 15,
     borderRadius: 15,
-    boxShadow: "1 1 1 1 lightgrey",
+    boxShadow: "10px 4px 8px rgba(0, 0, 0, 0.2)",
     marginVertical: 5,
   },
   noteText: {

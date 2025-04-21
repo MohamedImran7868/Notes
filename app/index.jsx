@@ -1,4 +1,3 @@
-import { router } from "expo-router";
 import { Text, View, StyleSheet, Image, TouchableOpacity, ActivityIndicator } from "react-native";
 import { useRouter } from "expo-router";
 import { useAuth } from "../contexts/AuthContext";

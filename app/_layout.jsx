@@ -1,13 +1,13 @@
 import { Stack } from 'expo-router';
 import { AuthProvider, useAuth } from '../contexts/AuthContext';
-import { TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { DarkModeProvider, useDarkMode } from './contexts/DarkModeContext'
+import { TouchableOpacity, Text, StyleSheet, button, Button } from 'react-native';
 
 const HeaderLogout = () => {
   const { user, logout } = useAuth();
 
   return user ? (
     <TouchableOpacity style={styles.logoutButton} onPress={() => {
-      console.log('Logout button pressed');
       logout();
     }}>
       <Text style={styles.logoutText}>Logout</Text>
@@ -15,31 +15,40 @@ const HeaderLogout = () => {
   ) : null;
 };
 
+const HeaderDarkMode = () =>{
+  const {darkmode, toggleDarkMode} = useDarkMode();
+  return(
+    <Button title={darkmode ? '🌙' : '☀️'} onPress={toggleDarkMode} style={styles.darModeBtn}/>
+  )
+}
+
 const RootLayout = () => {
   return (
     <AuthProvider>
-      <Stack
-        screenOptions={{
-          headerStyle: {
-            backgroundColor: '#ff8c00',
-          },
-          headerTintColor: '#fff',
-          headerTitleStyle: {
-            fontSize: 20,
-            fontWeight: 'bold',
-          },
-          headerRight: () => <HeaderLogout />,
-          contentStyle: {
-            paddingHorizontal: 10,
-            paddingTop: 10,
-            backgroundColor: '#fff',
-          },
-        }}
-      >
-        <Stack.Screen name='index' options={{ title: 'Home' }} />
-        <Stack.Screen name='notes' options={{ headerTitle: 'Notes' }} />
-        <Stack.Screen name='auth' options={{ headerTitle: 'Login' }} />
-      </Stack>
+      <DarkModeProvider>
+        <Stack
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: '#24aef9',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontSize: 20,
+              fontWeight: 'bold',
+            },
+            headerTitleAlign: 'center',
+            headerRight: () => <HeaderLogout />,
+            headerLeft: () => <HeaderDarkMode />,
+            contentStyle: {
+              backgroundColor: '#fff',
+            },
+          }}
+        >
+          <Stack.Screen name='index' options={{ title: 'Home' }} />
+          <Stack.Screen name='notes' options={{ headerTitle: 'Notes' }} />
+          <Stack.Screen name='auth' options={{ headerTitle: 'Login' }} />
+        </Stack>
+      </DarkModeProvider>
     </AuthProvider>
   );
 };
@@ -56,7 +65,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: 'bold',
-  },
+  }
 });
 
 export default RootLayout;
