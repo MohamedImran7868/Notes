@@ -11,7 +11,7 @@ A clean and intuitive note-taking application built with ReactNative and Expo. E
 
 - **Add New Notes** - Quickly create notes with titles and content
 - **Edit Existing Notes** - Modify your notes anytime
-- **Local Storage** - Notes are saved in your database.
+- **Database** - Notes are saved in your database.
 - **Clean UI** - Minimalist interface focused on your content
 - **Authentication** - Requires Login or signup (can come up with fake email)
 
@@ -25,4 +25,4 @@ A clean and intuitive note-taking application built with ReactNative and Expo. E
     ```bash
        npm start
     ```
-- A Qr Code will be generated. Scan with ur phone using Expo GO or run on sdk
+- A Qr Code will be generated. Scan with ur phone using Expo GO application for android or scan using camera for IOS
