@@ -15,6 +15,12 @@ A clean and intuitive note-taking application built with ReactNative and Expo. E
 - **Clean UI** - Minimalist interface focused on your content
 - **Authentication** - Requires Login or signup (can come up with fake email)
 
+## ⚒️ Tech Stack  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Expo Router](https://img.shields.io/badge/Expo-CA4245?logo=expo&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-4479A1?logo=mariadb&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-000000?logo=appwrite&logoColor=white)
+
 ## 👟 How to run
 - Clone the repository:
    ```bash
