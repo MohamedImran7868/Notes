@@ -11,7 +11,7 @@ A clean and intuitive note-taking application built with ReactNative and Expo. E
 
 - **Add New Notes** - Quickly create notes with titles and content
 - **Edit Existing Notes** - Modify your notes anytime
-- **Database** - Notes are saved in your database.
+- **Database** - Notes are saved in MariaDB (hosted by appwrite).
 - **Clean UI** - Minimalist interface focused on your content
 - **Authentication** - Requires Login or signup (can come up with fake email)
 
